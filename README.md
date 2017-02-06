@@ -1,7 +1,7 @@
 # singla1-SizeBook
 Repo for CMPUT 301 Assignment 1
 
-Video link: 
+Video link: https://youtu.be/VnWk2dFNJfk
 
 This is the SizeBook app used for recording a person's measurements to assist him with buying clothes.
 It records the name of the person along with the date, measurements and any comments that they might want to put in.
