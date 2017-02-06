@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">singla1-SizeBook</string>
+    <string name="chest">CHEST</string>
+    <string name="hip">HIP</string>
+    <string name="bust">BUST</string>
+    <string name="waist">WAIST</string>
+    <string name="comment">COMMENT</string>
+    <string name="neck">NECK</string>
+    <string name="inseam">INSEAM</string>
+    <string name="date">DATE</string>
+    <string name="name">NAME</string>
+    <string name="new_record">NEW RECORD</string>
+    <string name="save">SAVE</string>
+    <string name="view_records">VIEW RECORDS</string>
+    <string name="edit_record">EDIT RECORD</string>
+    <string name="total_number_of_records">Total Number of Records :</string>
+    <string name="list_of_records">LIST OF RECORDS</string>
+    <string name="welcome_to_sizebook">WELCOME TO SIZEBOOK</string>
+    <string name="search_a_record_by_name">Search a record by name</string>
+    <string name="search">SEARCH</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="save_changes">save_changes</string>
+</resources>

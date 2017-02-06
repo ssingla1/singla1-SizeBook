@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+
+
+
+            <TextView
+                android:text="@string/waist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/waist2"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:layout_marginTop="59dp"
+                android:layout_below="@+id/chest2"
+                android:layout_alignLeft="@+id/chest2"
+                android:layout_alignStart="@+id/chest2" />
+
+            <TextView
+                android:text="@string/bust"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bust2"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:layout_marginTop="54dp"
+                android:layout_below="@+id/neck2"
+                android:layout_alignLeft="@+id/neck2"
+                android:layout_alignStart="@+id/neck2" />
+
+            <TextView
+                android:text="@string/chest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chest2"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:layout_below="@+id/bust2"
+                android:layout_alignLeft="@+id/bust2"
+                android:layout_alignStart="@+id/bust2"
+                android:layout_marginTop="58dp" />
+
+            <TextView
+                android:text="@string/hip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hip2"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:layout_marginTop="44dp"
+                android:layout_below="@+id/waist2"
+                android:layout_alignLeft="@+id/waist2"
+                android:layout_alignStart="@+id/waist2" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:layout_below="@+id/neck2"
+                android:layout_alignLeft="@+id/bust2"
+                android:layout_alignStart="@+id/bust2"
+                android:id="@+id/neckid2"
+                android:hint="circumference in inches" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:layout_below="@+id/bust2"
+                android:layout_alignLeft="@+id/chest2"
+                android:layout_alignStart="@+id/chest2"
+                android:id="@+id/bustid2"
+                android:hint="circumference in inches" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:layout_below="@+id/chest2"
+                android:layout_alignLeft="@+id/waist2"
+                android:layout_alignStart="@+id/waist2"
+                android:id="@+id/chestid2"
+                android:hint="circumference in inches" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:layout_below="@+id/waist2"
+                android:layout_alignLeft="@+id/waist2"
+                android:layout_alignStart="@+id/waist2"
+                android:id="@+id/waistid2"
+                android:hint="circumference in inches" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/hipid2"
+                android:hint="circumference in inches"
+                android:layout_below="@+id/hip2"
+                android:layout_alignLeft="@+id/hip2"
+                android:layout_alignStart="@+id/hip2" />
+
+            <TextView
+                android:text="@string/inseam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/inseam2"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:layout_below="@+id/hipid2"
+                android:layout_alignLeft="@+id/hipid2"
+                android:layout_alignStart="@+id/hipid2" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/comment2"
+                android:layout_alignRight="@+id/inseamid2"
+                android:layout_alignEnd="@+id/inseamid2"
+                android:id="@+id/commentid2"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="@string/neck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/neck2"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:layout_below="@+id/dateid2"
+                android:layout_alignRight="@+id/date2"
+                android:layout_alignEnd="@+id/date2"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:text="@string/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/comment2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:layout_below="@+id/inseamid2"
+                android:layout_alignLeft="@+id/commentid2"
+                android:layout_alignStart="@+id/commentid2"
+                android:layout_marginTop="17dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/nameid2"
+                android:hint="Enter your name"
+                android:layout_below="@+id/name2"
+                android:layout_alignLeft="@+id/name2"
+                android:layout_alignStart="@+id/name2" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/dateid2"
+                android:hint="YYYY-MM-DD"
+                android:layout_below="@+id/date2"
+                android:layout_alignLeft="@+id/date2"
+                android:layout_alignStart="@+id/date2" />
+
+            <TextView
+                android:text="@string/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date2"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/nameid2"
+                android:layout_alignLeft="@+id/nameid2"
+                android:layout_alignStart="@+id/nameid2"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/inseamid2"
+                android:hint="length in inches"
+                android:layout_below="@+id/inseam2"
+                android:layout_alignLeft="@+id/inseam2"
+                android:layout_alignStart="@+id/inseam2" />
+
+            <TextView
+                android:text="@string/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name2"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="97dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="@string/edit_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="29dp"
+                android:id="@+id/newrecord2"
+                android:textStyle="normal|bold"
+                android:textSize="24sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:text="@string/save_changes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/savechanges2"
+                android:elevation="9dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/cancel2"
+                android:layout_toEndOf="@+id/cancel2" />
+
+            <Button
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancel2"
+                android:layout_below="@+id/commentid2"
+                android:layout_toRightOf="@+id/waist2"
+                android:layout_toEndOf="@+id/waist2"
+                android:layout_marginTop="21dp" />
+        </RelativeLayout>
+
+</ScrollView>
